@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <nav aria-label="Main Navigation" role="navigation">
+      {/* <nav aria-label="Main Navigation" role="navigation"> */}
         <ul id="red">
           <li><a href="#">Home</a></li>
           <li><a href="#">Women's</a></li>
@@ -12,10 +12,10 @@ function Footer() {
           <li><a href="#">The Catwalk</a></li>
           <li><a href="#">AdWatch</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Tops</a></li>
+          <li><a href="#">Tips</a></li>
         </ul>
-        <p1>&copy; 2013 Valet Industries, Inc</p1>
-      </nav>
+      {/* </nav> */}
+      <p1>&copy; 2013 Valet Industries, Inc</p1>
     </footer>
   );
 }
